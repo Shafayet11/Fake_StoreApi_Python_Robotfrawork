@@ -1,0 +1,10 @@
+*** Settings ***
+Library  RequestsLibrary
+Library  SeleniumLibrary
+Resource  ../Variables/variable.robot
+Resource  ../Pages/all_test_case.robot
+
+*** Test Cases ***
+
+ALL_Get_Products1
+    Products1_API
